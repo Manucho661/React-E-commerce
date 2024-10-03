@@ -1,14 +1,18 @@
 import Header from './Header';
-import Content from './Content';
-import Footer from './Footer';
+
+import Products from './Products';
+import Banner from './Banner';
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Content></Content>
+      <Banner></Banner>
+      <h3>Our Products</h3>
+      <div className="products d-flex">
       
-      <Footer></Footer>
-      
+      <Products></Products>
+      <Products></Products>
+      </div>
     </div>
   );
 }
