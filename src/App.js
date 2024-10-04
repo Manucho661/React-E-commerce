@@ -10,7 +10,7 @@ function App() {
       <h3>Our Products</h3>
       <div className="products d-flex">
       
-      <Products></Products>
+     
       <Products></Products>
       </div>
     </div>
