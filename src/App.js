@@ -9,8 +9,7 @@ function App() {
       <Banner></Banner>
       <h3>Our Products</h3>
       <div className="products d-flex">
-      
-     
+        
       <Products></Products>
       </div>
     </div>
